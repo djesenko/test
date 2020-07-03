@@ -1,0 +1,11 @@
+[
+{
+  "type": 3,
+  "title": "CockroachDB",
+  "description": "CockroachDB cluster",
+  "repository": {
+    "url": "http://192.168.188.25:8080/portainer/imx6/",
+    "stackfile": "docker-compose.yml"
+  }
+}
+]
