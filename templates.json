@@ -102,6 +102,18 @@
            "bind": "/dev/dri"
          }
     ]
+    },
+    {
+    "type": 3,
+    "title": "Codesys",
+    "description": "Run Codesys container",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Codesys_Logo.svg/1280px-Codesys_Logo.svg.png",
+    "platform": "linux",
+    "categories": ["Partner images"],
+    "repository": {
+      "url": "https://github.com/djesenko/test",
+      "stackfile": "docker-compose.yml"
+    }
     }
 
 ]
