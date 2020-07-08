@@ -2,11 +2,9 @@ version: "2"
 services:
 
   codesys:
+    container_name: codesys    
     image: torizonextras/codesys
-    container_name: codesys
     privileged: true
-    ports:
-        - '8080:8080'    
     network_mode: host
 
   kiosk-codesys:
