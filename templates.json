@@ -113,7 +113,7 @@
     "categories": ["Partner images"],
     "repository": {
       "url": "https://github.com/djesenko/test",
-      "stackfile": "docker-compose.yml"
+      "stackfile": "test/docker-compose.yml"
                   }
     },
     {
