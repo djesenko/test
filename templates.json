@@ -23,8 +23,8 @@
     "categories": ["Toradex images"],
     "env": [
       {
-        "name": "MYSQL_ROOT_PASSWORD",
-        "label": "Root password"
+        "name": "TAG",
+        "label": "Container tag"
       }
     ],	    
     "volumes": [
