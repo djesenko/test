@@ -4,13 +4,7 @@
     "title": "test",
     "description": "test",
     "platform": "linux",
-    "name": "test",    
- #   "env": [
- #     {
- #       "name": "TAG",
- #       "label": "Container tag"
- #     }
- #   ],	    
+    "name": "test",    	    
     "categories": ["Partner images"],
     "repository": {
       "url": "https://github.com/djesenko/test",
