@@ -24,7 +24,8 @@
     "env": [
       {
         "name": "TAG",
-        "label": "Container tag"
+        "label": "Container tag",
+	"default": 1      
       }
     ],	    
     "volumes": [
