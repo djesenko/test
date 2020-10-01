@@ -9,7 +9,7 @@
       {
         "name": "TAG",
         "label": "Container tag",
-        "default": $"CT_TAG_KIOSK_MODE_BROWSER"          
+        "default": "$CT_TAG_KIOSK_MODE_BROWSER"          
       }
     ],        
     "categories": ["Partner images"],
