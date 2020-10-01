@@ -1,6 +1,6 @@
 version: "2"
 services:
-  kiosk-node-red:
+  kiosk:
     image: torizon/kiosk-mode-browser:$TAG
     command: --browser-mode http://google.com
     privileged: true
