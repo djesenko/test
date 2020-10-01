@@ -1,7 +1,7 @@
 version: "2"
 services:
   kiosk:
-    image: torizon/kiosk-mode-browser:$TAG
+    image: torizon/kiosk-mode-browser:$CT_TAG_KIOSK_MODE_BROWSER
     command: --browser-mode http://google.com
     privileged: true
     volumes:
