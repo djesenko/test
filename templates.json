@@ -113,11 +113,10 @@
     },
     {
     "type": 3,
-    "title": "Node-RED",
-    "description": "Run Node-RED container",
-    "logo": "https://nodered.org/about/resources/media/node-red-icon.png",    
+    "title": "test",
+    "description": "test",
     "platform": "linux",
-    "name": "node-red",    
+    "name": "test",    
     "categories": ["Partner images"],
     "repository": {
       "url": "https://github.com/toradex/portainer-templates",
