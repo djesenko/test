@@ -119,8 +119,8 @@
     "name": "test",    
     "categories": ["Partner images"],
     "repository": {
-      "url": "https://github.com/toradex/portainer-templates",
-      "stackfile": "arm32v7/docker-compose-nodered.yml"
+      "url": "https://github.com/djesenko/test",
+      "stackfile": "stack/docker-compose.yml"
                   }
     }
 
