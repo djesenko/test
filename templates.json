@@ -8,7 +8,7 @@
     "env": [
       {
         "name": "TAG",
-        "label": "Container tag"
+        "label": "Container tag",
         "default": $CT_TAG_KIOSK_MODE_BROWSER          
       }
     ],        
