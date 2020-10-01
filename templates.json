@@ -16,7 +16,7 @@
     "title": "Developer Tools Container",
     "description": "Run developer tools container for TorizonCore",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/GNOME_Terminal_icon_2019.svg/1200px-GNOME_Terminal_icon_2019.svg.png",
-    "image": "torizon/dev-tools:1",
+    "image": "torizon/dev-tools:$TAG",
     "platform": "linux",
     "interactive": true,
     "privileged": true,
