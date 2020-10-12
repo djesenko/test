@@ -114,7 +114,8 @@
     "categories": ["Partner images"],
     "env": [
       {
-        "name": "Container tag",
+        "name": "CT_TAG_KIOSK_MODE_BROWSER",
+	"label": "Container tag",      
         "default": "CT_TAG_KIOSK_MODE_BROWSER"
       }
     ],	    
