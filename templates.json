@@ -112,6 +112,12 @@
     "platform": "linux",
     "name": "node-red",    
     "categories": ["Partner images"],
+    "env": [
+      {
+        "name": "Container tag",
+        "default": "$CT_TAG_KIOSK_MODE_BROWSER"
+      }
+    ],	    
     "repository": {
       "url": "https://github.com/toradex/portainer-templates",
       "stackfile": "stack/docker-compose.yml"
