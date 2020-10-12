@@ -119,7 +119,7 @@
       }
     ],	    
     "repository": {
-      "url": "https://github.com/toradex/portainer-templates",
+      "url": "https://github.com/djesenko/test",
       "stackfile": "stack/docker-compose.yml"
                   }
     }
