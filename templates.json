@@ -114,7 +114,7 @@
     "categories": ["Partner images"],
     "repository": {
       "url": "https://github.com/toradex/portainer-templates",
-      "stackfile": "stack/docker-compose-nodered.yml"
+      "stackfile": "stack/docker-compose.yml"
                   }
     }
 
