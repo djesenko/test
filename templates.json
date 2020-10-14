@@ -116,7 +116,8 @@
       {
         "name": "TAG_KIOSK_MODE_BROWSER",
 	"label": "Container tag",      
-        "default": "CT_TAG_KIOSK_MODE_BROWSER"
+        "default": "1",
+	"value": "CT_TAG_KIOSK_MODE_BROWSER"      
       }
     ],	    
     "repository": {
