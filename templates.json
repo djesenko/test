@@ -111,14 +111,7 @@
     "logo": "https://nodered.org/about/resources/media/node-red-icon.png",    
     "platform": "linux",
     "name": "node-red",    
-    "categories": ["Partner images"],
-    "env": [
-      {
-        "name": "TAG_KIOSK_MODE_BROWSER",
-	"label": "Container tag",      
-        "default": "CT_TAG_KIOSK_MODE_BROWSER"  
-      }
-    ],	    
+    "categories": ["Partner images"],	    
     "repository": {
       "url": "https://github.com/djesenko/test",
       "stackfile": "stack/docker-compose.yml"
