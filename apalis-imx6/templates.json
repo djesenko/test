@@ -98,17 +98,16 @@
                 "Partner images"
             ],
             "description": "Run Node-RED container",
-            "image": "nodered/node-red:1.0.6-2",
-            "interactive": true,
             "logo": "https://nodered.org/about/resources/media/node-red-icon.png",
-            "note": "NOTE: This will only start a web interface. To access it, open a web-browser and run http://\u0026lt;Board\u0026#39;s Ethernet IP\u0026gt;:1880",
+            "name": "node-red",
             "platform": "linux",
-            "ports": [
-                "1880:1880/tcp"
-            ],
-            "restart_policy": "no",
+            "repository": {
+                "stackfile": "stack/docker-compose.yml",
+                "RepositoryReferenceName": "1",
+                "url": "https://github.com/djesenko/test"
+            },
             "title": "Node-RED",
-            "type": 1
+            "type": 3
         }
     ]
 }
