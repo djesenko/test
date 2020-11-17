@@ -19,6 +19,35 @@
 			"categories": [
 				"Toradex images"
 			],
+			"command": "--browser-mode https://www.google.com",
+			"description": "Run Chromium container",
+			"image": "torizon/kiosk-mode-browser-x11:2",
+			"interactive": true,
+			"logo": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Chromium_11_Logo.svg",
+			"platform": "linux",
+			"privileged": true,
+			"restart_policy": "no",
+			"title": "Chromium",
+			"type": 1,
+			"volumes": [
+				{
+					"bind": "/tmp",
+					"container": "/tmp"
+				},
+				{
+					"bind": "/var/run/dbus",
+					"container": "/var/run/dbus"
+				},
+				{
+					"bind": "/dev/dri",
+					"container": "/dev/dri"
+				}
+			]
+		},		
+		{
+			"categories": [
+				"Toradex images"
+			],
 			"command": "/usr/lib/arm-linux-gnueabihf/qt5/examples/opengl/cube/cube",
 			"description": "Run Qt5 demo application",
 			"image": "torizon/qt5-wayland-examples:2",
