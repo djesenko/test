@@ -6,14 +6,15 @@
                 "Toradex images"
             ],
             "command": "weston-terminal",
-            "description": "Run Weston Terminal",
+            "name": "weston-terminal",
+            "description": "Run Weston-terminal",
             "image": "torizon/weston:2",
             "interactive": true,
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/GNOME_Terminal_icon_2019.svg/1200px-GNOME_Terminal_icon_2019.svg.png",
             "platform": "linux",
             "privileged": true,
             "restart_policy": "no",
-            "title": "Weston Terminal",
+            "title": "Weston-terminal",
             "type": 1,
             "volumes": [
                 {
@@ -31,6 +32,7 @@
                 "Toradex images"
             ],
             "command": "--browser-mode https://www.google.com",
+            "name": "chromium",
             "description": "Run Chromium container",
             "image": "torizon/kiosk-mode-browser:2",
             "interactive": true,
@@ -60,6 +62,7 @@
                 "Toradex images"
             ],
             "command": "/usr/lib/arm-linux-gnueabihf/qt5/examples/opengl/cube/cube",
+            "name": "qt5-app",
             "description": "Run Qt5 demo application",
             "image": "torizon/qt5-wayland-examples:2",
             "interactive": true,
@@ -84,6 +87,7 @@
             "categories": [
                 "Partner images"
             ],
+            "name": "crank",
             "description": "Run Crank container",
             "image": "cranksoftware/torizon_imx6:6_1",
             "interactive": true,
@@ -108,6 +112,7 @@
             "categories": [
                 "Partner images"
             ],
+            "name": "node-red",
             "description": "Run Node-RED container",
             "image": "nodered/node-red:1.0.6-2",
             "interactive": true,
