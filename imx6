@@ -11,6 +11,7 @@
             "interactive": true,
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/GNOME_Terminal_icon_2019.svg/1200px-GNOME_Terminal_icon_2019.svg.png",
             "platform": "linux",
+            "privileged": true,
             "restart_policy": "no",
             "title": "Weston Terminal",
             "type": 1
