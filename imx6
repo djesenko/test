@@ -14,7 +14,17 @@
             "privileged": true,
             "restart_policy": "no",
             "title": "Weston Terminal",
-            "type": 1
+            "type": 1,
+            "volumes": [
+                {
+                    "bind": "/tmp",
+                    "container": "/tmp"
+                },
+                {
+                    "bind": "/dev/dri",
+                    "container": "/dev/dri"
+                }
+            ]
         },
         {
             "categories": [
