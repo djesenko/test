@@ -87,8 +87,7 @@
             "image": "nodered/node-red:1.0.6-2",
             "interactive": true,
             "logo": "https://nodered.org/about/resources/media/node-red-icon.png",
-            "note": "<p data-renderer-start-pos="1547">Node-RED is a programming tool that allows you to do block-based coding on a web interface. Learn more on <a class="sc-kkbgRg jXTZiN" data-renderer-mark="true" href="https://developer.toradex.com/knowledge-base/node-red" title="https://developer.toradex.com/knowledge-base/node-red">https://developer.toradex.com/knowledge-base/node-red</a></p>
-            <p data-renderer-start-pos="1730">NOTE: This will only start a web interface. To access it, open a web-browser and run <a class="sc-kkbgRg jXTZiN" data-renderer-mark="true" href="http://<board's/" title="http://<board's/">http://&lt;Board&apos;s</a> Ethernet IP&gt;:1880</p>",
+            "note": "<p>Node-RED is a programming tool that allows you to do block-based coding on a web interface. Learn more on https://developer.toradex.com/knowledge-base/node-red</p> <p>NOTE: This will only start a web interface. To access it, open a web-browser and run http://<Board's Ethernet IP>:1880</p>",
             "platform": "linux",
             "ports": [
                 "1880:1880/tcp"
