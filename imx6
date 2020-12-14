@@ -7,7 +7,7 @@
             ],
             "command": "weston-terminal",
             "name": "weston-terminal",
-            "description": "Run Weston-terminal",
+            "description": "This simple example helps you to get started with Toradex containers and illustrates how to run graphical applications - the weston-terminal, for instance - that are compatible with the Wayland/Weston graphics stack. Learn more on https://developer.toradex.com/knowledge-base/debian-container-for-torizon",
             "image": "torizon/weston-vivante:2",
             "interactive": true,
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/GNOME_Terminal_icon_2019.svg/1200px-GNOME_Terminal_icon_2019.svg.png",
@@ -102,7 +102,7 @@
                 "Partner images"
             ],
             "name": "crank",
-            "description": "Run Crank container",
+            "description": "This simple example helps you to get started with Toradex containers and illustrates how to run graphical applications - the weston-terminal, for instance - that are compatible with the Wayland/Weston graphics stack. Learn more on https://developer.toradex.com/knowledge-base/debian-container-for-torizon",
             "image": "cranksoftware/torizon_imx6:6_1",
             "interactive": true,
             "logo": "https://pbs.twimg.com/profile_images/1119027705444540416/wNoG5h6v_400x400.png",
