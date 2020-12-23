@@ -32,7 +32,7 @@
             "categories": [
                 "Toradex images"
             ],
-            "command": "--browser-mode --shm-size=256m https://www.google.com",
+            "command": "--browser-mode --shm-size=256m https://www.cnn.com",
             "name": "chromium",
             "description": "Run Chromium container",
             "image": "torizon/kiosk-mode-browser:2",
