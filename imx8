@@ -148,7 +148,7 @@
             "categories": [
                 "Partner images"
             ],
-            "command": "./start.sh",
+            "command": "/app/start.sh",
             "name": "totalcross",
             "description": "Run TotalCross container",
             "image": "totalcross/torizon-demo:1.0.1",
