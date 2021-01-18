@@ -32,7 +32,7 @@
             "categories": [
                 "Toradex images"
             ],
-            "command": "/usr/lib/arm-linux-gnueabihf/qt5/examples/opengl/cube/cube",
+            "command": "/usr/lib/arm-linux-gnueabihf/qt5/examples/quick/quickwidgets/quickwidget/quickwidget",
             "name": "qt5-app",
             "description": "Run Qt5 demo application",
             "image": "torizon/qt5-wayland-examples:2",
@@ -52,32 +52,6 @@
                 {
                     "bind": "/dev/dri",
                     "container": "/dev/dri"
-                }
-            ]
-        },
-        {
-            "categories": [
-                "Partner images"
-            ],
-            "name": "crank",
-            "description": "Run Crank container",
-            "image": "cranksoftware/torizon_imx6:6_1",
-            "interactive": true,
-            "logo": "https://pbs.twimg.com/profile_images/1119027705444540416/wNoG5h6v_400x400.png",
-            "note": "Creating Graphical User Interfaces is made easy with Crank Storyboard. Learn how to deploy your own application with this Partner Demo Container on <a href=https://developer.toradex.com/knowledge-base/partner-demo-container-crank-storyboard>https://developer.toradex.com/knowledge-base/partner-demo-container-crank-storyboard</a>.<br>It is recommended to run this demo with an HDMI display, since it has a fixed resolution of 1280x720.",
-            "platform": "linux",
-            "privileged": true,
-            "restart_policy": "no",
-            "title": "Crank",
-            "type": 1,
-            "volumes": [
-                {
-                    "bind": "/dev",
-                    "container": "/dev"
-                },
-                {
-                    "bind": "/tmp",
-                    "container": "/tmp"
                 }
             ]
         },
@@ -125,6 +99,6 @@
                     "container": "/tmp"
                 }
             ]
-        }        
+        }
     ]
 }
