@@ -41,11 +41,11 @@
             "note": "This simple 3D demonstration using Qt5 is ideal to get you started into developing Qt apps with Torizon. Start with <a href=https://developer.toradex.com/knowledge-base/qt-debian-container-for-torizon>https://developer.toradex.com/knowledge-base/qt-debian-container-for-torizon</a>, then learn how to develop your application on <a href=https://developer.toradex.com/knowledge-base/qt-c-application-development-using-visual-studio-code-and-torizon>https://developer.toradex.com/knowledge-base/qt-c-application-development-using-visual-studio-code-and-torizon</a> and <a href=https://developer.toradex.com/knowledge-base/torizoncore-qt-python>https://developer.toradex.com/knowledge-base/torizoncore-qt-python</a>.",
             "platform": "linux",
             "env": [
-              {
-                "name": "QMLSCENE_DEVICE",
-                "default": "softwarecontext"
-              }
-            ],
+                {
+                  "name": "QMLSCENE_DEVICE",
+                  "default": "softwarecontext"
+                }
+              ],
             "privileged": true,
             "restart_policy": "no",
             "title": "Qt5 application",
