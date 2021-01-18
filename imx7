@@ -45,7 +45,7 @@
                 "name": "QMLSCENE_DEVICE",
                 "default": "softwarecontext"
               }
-            ]
+            ],
             "privileged": true,
             "restart_policy": "no",
             "title": "Qt5 application",
